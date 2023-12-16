@@ -1,12 +1,12 @@
-# This repo shows, how we can generate a compiled file of a python program and then decompile is using uncompyle6 liabrary. 
-Make tow directory as compiled_result, final_result in the root directory and place the original python file in the root directory itself.
+# This repo shows, how we can generate a compiled file of a Python program and then decompile it using the uncompyle6 library. 
+Make two directories compiled_result, and final_result in the root directory and place the original Python file in the root directory.
 
 To compile the file 
 > python -m compileall . && mv *.pyc compiled_result/
 
 You will get the compiled file in compiled_result folder.
 
-To decompile the file, first we will need to install uncompyle6 package.Install that using this command,
+First, we will need to install the uncompyle6 package to decompile the file. Install that using this command,
 pip install uncompyle6
 
 Go to compile_result folder and hit this command,
